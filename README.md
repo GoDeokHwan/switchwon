@@ -8,6 +8,13 @@
 - H2 DB ( http://localhost:8080/h2-console )
 - Swagger ( http://localhost:8080/swagger-ui/index.html#/payment-controller )
 
+## 실행 방법
+1. switchwon-api 폴더 위치로 이동
+2. bootRun 실행 
+```shell
+./gradlew bootRun
+```
+
 ## 설계에 앞서서 문제 상황에 대한 개인 의견으로 처리 상황 설명
 1. 해당 스위치온페이먼츠라는 개념이 네이버페이, 토스페이와 같은 일정 금액을 충전을 하는 방식이라는 출제 의도로 이해하였습니다.
 2. 1번에 대한 상황으로 충전된 금액을 넘을 경우 요청된 결제수단에서 해당 금액을 충전해서 제외하는 방식으로 진행하겠습니다.
